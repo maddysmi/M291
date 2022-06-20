@@ -1,5 +1,5 @@
 <template >
-  <div style="background-color:#3a3b3c; color:#ebecf0; font-family: Montserrat; text-align: center; padding-top: 50px; padding-bottom:50px">
+  <div style="background-color:#ffffff; color:#222d34; font-family: Montserrat; text-align: center; padding-top: 50px; padding-bottom:50px">
     <h1 v-if="true" v-text="mytext">Loading...</h1>
     <h2 v-else-if="true" v-html="myhtml"/>
     <b-container fluid>
@@ -30,9 +30,9 @@ export default {
   data() {
     return {
       // v-text
-      mytext: 'CAFÉ SCHERMUTH',
+      mytext: 'BOUTIQUE RENGGLI',
       // v-html
-      myhtml: '<h1 style="color:Tomato;"> CAFÉ SCHERMUTH </br> HTML in <br/></h1>'
+      myhtml: '<h1 style="color:#30b7ff;"> BOUTIQUE RENGGLI </br> html in (myhtml) <br/></h1>'
     }
   }
 }

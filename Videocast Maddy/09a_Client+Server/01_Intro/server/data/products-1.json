@@ -1,7 +1,7 @@
 [
-  {"name": "Schokoladentafel (Lindt, 100g)", "price": 5.90},
-  {"name": "Espresso (aus Pandafreundlicher Anzpflanzung)", "price": 7.30},
-  {"name": "Buttergipfeli (pro Stück.)", "price": 1.70},
-  {"name": "Wasser ohne (1L)", "price": 5.50 },
-  {"name": "Wasser mit (1L)", "price": 5.50 }
+  {"name": "Blauer Rock | Beerenstark", "price": 24.95},
+  {"name": "Blaue Jeans | Supercool", "price": 69.00},
+  {"name": "Sonnenhut | Hitzefrei", "price": 14.50},
+  {"name": "Weisse Damenblouse | Schneeweisschen", "price": 49.45},
+  {"name": "Damenschuh | Schwarze Kohle", "price": 122.25}
 ]

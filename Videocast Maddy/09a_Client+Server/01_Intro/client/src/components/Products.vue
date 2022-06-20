@@ -1,10 +1,10 @@
 <template>
   <div>
-      <h2>Produkte</h2>
+      <h2>Damenmode</h2>
       <table style="margin-left:auto; margin-right: auto; text-align: left; ">
         <thead>
         <tr>
-          <th >Name</th>
+          <th >Artikel</th>
           <td>&nbsp;&nbsp;&nbsp;</td>
           <th>Preis</th>
           <th>&nbsp;</th>
@@ -17,8 +17,8 @@
           <td>{{ product.price.toFixed(2) }} CHF</td>
           <td>&nbsp;&nbsp;&nbsp;</td>
           <td>
-            <b-button variant="success"  @click="addToCart(product) " @click.once="toggle = !toggle" style="background-color:#07ad62; border-color: #07ad62; margin-right: 10px; padding: 3px 8px 3px 8px">+</b-button>
-            <b-button v-show='toggle'  variant="danger" @click="removeFromCart(product)" style="background-color:#8b0000; border-color: #8b0000; margin-right: 10px; padding: 3px 8px 3px 8px">-</b-button>
+            <b-button variant="success"  @click="addToCart(product) " @click.once="toggle = !toggle" style="color: #222d34; background-color:#9cff8e; border-color: #9cff8e; margin-right: 10px; padding: 3px 8px 3px 8px">+</b-button>
+            <b-button v-show='toggle'  variant="danger" @click="removeFromCart(product)" style="color: #222d34; background-color:#cb5f5f; border-color: #cb5f5f; margin-right: 10px; padding: 3px 8px 3px 8px">-</b-button>
           </td>
         </tr>
         </tbody>

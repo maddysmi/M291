@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h2>Warenkorb</h2>
+    <h2>Ihr Total</h2>
     <table style="margin-left:auto; margin-right: auto; ">
       <thead>
       <tr>
-        <th style="text-align: left">Name</th>
+        <th style="text-align: middle">Artikel</th>
         <th style="text-allign: right">Anzahl</th>
       </tr>
       </thead>
